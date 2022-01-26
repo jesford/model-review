@@ -1,0 +1,11 @@
+name: testtest
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - matplotlib=3.4
+  - python=3.7
+  - scikit-learn=1.0
+  - jupyterlab=3.2
+  - mlflow=1.21
+  - tensorflow=2.0
