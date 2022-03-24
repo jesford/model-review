@@ -1,4 +1,4 @@
-name: testtest
+name: mlflow-demo
 channels:
   - defaults
   - conda-forge
