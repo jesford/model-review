@@ -2,7 +2,7 @@
 
 This repo contains materials for a talk on reviewing Machine Learning models before deploying to production, inspired by the concept of a Code Review. Most of the content is a tutorial on using [MLflow](https://www.mlflow.org/docs/latest/index.html) Tracking.
 
-See either the Jupyter Notebook (tutorial.ipynb) for the content, or the html slides which were rendered using [RISE](https://github.com/damianavila/RISE). Current version of this talk was presented at [PyData SLC Meetup](https://www.meetup.com/PyData-SLC/events/283185065/) in January 2022, with the verbose title _"Model Review: improving transparency, reproducibility, & knowledge sharing using MLflow."_
+See either the Jupyter Notebook (tutorial.ipynb) for the content, or the pdf slides which were converted from html rendered using [RISE](https://github.com/damianavila/RISE). The version of the talk on the main branch will be presented at PyCon 2022. A previous version was presented at the [PyData SLC Meetup](https://www.meetup.com/PyData-SLC/events/283185065/) in January 2022, and is available under the `pydata-slc-2022` branch. The title of the talks were _"Model Review: improving transparency, reproducibility, & knowledge sharing using MLflow."_
 
 ### Getting Started
 
