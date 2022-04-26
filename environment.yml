@@ -1,11 +1,14 @@
 name: mlflow-demo
 channels:
-  - defaults
   - conda-forge
 dependencies:
-  - matplotlib=3.4
   - python=3.7
-  - scikit-learn=1.0
   - jupyterlab=3.2
+  - matplotlib=3.4
   - mlflow=1.21
+  - scikit-learn=1.0
   - tensorflow=2.0
+  - pip
+  - pip:
+    - jupyter_nbextensions_configurator==0.4.1
+    - RISE==5.7

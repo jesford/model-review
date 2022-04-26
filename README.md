@@ -18,4 +18,11 @@ $ conda env create -f environment.yml
  $ conda activate mlflow-demo
  ```
  
- and try out some examples in the notebook. Enjoy!
+and try out some examples in the notebook. Enjoy!
+
+### Rendering as slides with RISE
+
+Optionally, if you want to use the [RISE](https://rise.readthedocs.io/en/stable/) extension on Jupyter Notebook, to view the notebook as slides, you might also need to run `jupyter contrib nbextension install --user`. Note that this extension
+currently only works in jupter notebook, not jupyterlab. After starting
+`jupyter notebook`, you should have a tab to configure `Nbextensions` including
+RISE (I like to set the theme to `night`, the transition to `none` and check the box to enable `scroll` since some of these slides include large screenshots). In the notebook tab, you should have a button that looks like a barchart to `Enter/Exit RISE Slideshow`.
